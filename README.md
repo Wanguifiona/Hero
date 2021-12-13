@@ -1,6 +1,6 @@
-# Caesar Cipher
+# Hero Squad
 
-A Caesar cipher is a type of substitution in which each letter is shifted a certain number of places also known as a key, down the alphabet.  For example, with a shift of 1, A would be replaced by B, B would become C, and so on. For more information on it.
+Hero Squad app is an app that you can use to create an app that allows you to recruit a well-balanced team of superheroes, it can be a team or individual heros.
 
 ### Author
 
