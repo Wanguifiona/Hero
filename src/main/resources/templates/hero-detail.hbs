@@ -1,18 +1,21 @@
 {{#partial "content"}}
-    {{#each hero}}
-        <div class="hero-part">
+
+        <div class="detail" >
             <a href="/hero-form">Add new Hero to list</a>
+        {{#each hero}}
             <p>Name:{{ name }}</p>
             <p>Age:{{ age }}</p>
             <p>Powers:{{ powers }}</p>
             <p>Weakness:{{ weakness }}</p>
+            <p>Id:{{id}}</p>
             <p>
                 {{#if post.published }}
                     <span class="glyphicon glyphicon-star" aria-hidden="true"></span>  Published
                 {{/if}}
             </p>
+        {{/each}}
         </div>
-    {{/each}}
+
 {{/partial}}
 
 {{> layout.hbs}}
