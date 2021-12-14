@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="1" name="models.SquadTest" time="0.014" errors="0" skipped="0">
+<testsuite tests="7" failures="1" name="models.SquadTest" time="0.022" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.12+7"/>
@@ -68,7 +68,7 @@
   <testcase classname="models.SquadTest" name="AllSquadAreCorrectlyReturned_true" time="0"/>
   <testcase classname="models.SquadTest" name="AllSquadsContainsAllSquads_true" time="0"/>
   <testcase classname="models.SquadTest" name="getId_squadInstantiateWithAnID_1" time="0"/>
-  <testcase classname="models.SquadTest" name="SquadInstantiatesWithCause_true" time="0.009">
+  <testcase classname="models.SquadTest" name="SquadInstantiatesWithCause_true" time="0.017">
     <failure message="expected:&lt;[Avengers]&gt; but was:&lt;[greater good]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[Avengers]&gt; but was:&lt;[greater good]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
