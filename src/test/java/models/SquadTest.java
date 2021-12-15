@@ -21,7 +21,7 @@ public class SquadTest {
     @Test
     public void SquadInstantiatesWithCause_true() throws Exception {
         Squad squad = new Squad("Avengers", 10, "greater good");
-        assertEquals("Avengers", squad.getCause());
+        assertEquals("greater good", squad.getCause());
 
     }
 
