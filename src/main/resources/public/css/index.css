@@ -1,8 +1,7 @@
-.btn-primary{
-    background-color: #06038F;
-     border-radius: 50px;
+body{
+    background-image: url("../images/wall2.jpg");
+    text-align: center;
+    color: black;
 }
-.about{
-text-align: center;
-font-size: 55;
-}
+
+

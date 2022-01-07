@@ -1,0 +1,13 @@
+body{
+  background-image: url("../images/victory2.jpg");
+  background-position: center;
+  background-size: cover;
+
+  }
+  .success {
+      font-weight: bolder;
+      text-align: center;
+      font-family: 'Libre Baskerville', serif;
+      padding-top: 50px
+      margin: 10px;
+  }

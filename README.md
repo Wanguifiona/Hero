@@ -6,24 +6,45 @@ Hero Squad app is an app that you can use to create an app that allows you to re
 
 Fiona Wangui.
 
-### Contact
+### Contact information
 
 fiona.maina@student.moringaschool.com
 
+### Demo
+Here is a working live demo : 
+
 ## Technologies used
-* Java
-* JDK - Java Development Kit
-* Gradle
-* An IDE - Intellij
+* Java.
+* Spark.
+* Gradle.
+* Maven.
+* Bootstrap.
+* JUnit.
 
-##### Setup/Installation Requirements
-* git clone https://github.com/Wanguifiona/Hero.git
+##### Setup instructions
 
-* src/main/java/App.java
+To set up this project:
 
-* Open with intellij IDEA.
+* Clone the repository by executing the following command in your terminal in the directory of your choice -  git clone https://github.com/Wanguifiona/Hero.git
+* Navigate into the hero-squad directory - cd Hero-Squad
+
+* Build project
+
+##### Installing
+* After cloning to your local machine navigate to the folder you cloned into and open it with intellij.
+
+* Navigate into the src/main/java/App.java and click run in intellij.
 
 * Go to your browser and type localhost:4567
+
+
+##### Build with
+
+* Java - The language used
+
+* Intellij Idea - Intergated development
+
+* Spark - Framework
 
 ## Known bugs
 

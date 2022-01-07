@@ -1,0 +1,36 @@
+body{
+  background-image: url("../images/squad10.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat-y;
+  }
+
+  h1{
+      text-align: center;
+      color: yellow;
+      font-family: 'Libre Baskerville', serif;
+      font-weight: 1500;
+      text-shadow: 0.1rem 0.1rem 0.5rem #333;
+  }
+
+  form{
+      border: 2px solid white;
+      font-size: 2rem;
+      font-weight: 600;
+      color: black;
+      padding: 1em;
+  }
+
+  .form-group{
+      padding: 5px;
+  }
+  .btn{
+      margin-top: 1.5em;
+      margin: 1em;
+      color: white;
+  }
+  label{
+      color:yellow;
+      text-shadow: 0.1rem 0.1rem 0.7rem #333;
+      text align: center;
+  }
