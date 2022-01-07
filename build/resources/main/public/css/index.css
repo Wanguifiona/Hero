@@ -3,5 +3,10 @@ body{
     text-align: center;
     color: black;
 }
+.about p{
+    color: black;
+    font-size: 1.6rem;
+    padding: 0.2em;
+    margin: 2em;
 
-
+}
