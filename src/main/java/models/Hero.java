@@ -1,5 +1,6 @@
 package models;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 
 public class Hero {
@@ -18,6 +19,7 @@ public class Hero {
         this.weakness = weakness;
         instances.add(this);
         this.id = instances.size();
+
     }
 
     public String getName() {
@@ -48,3 +50,5 @@ public class Hero {
     }
 
 }
+
+

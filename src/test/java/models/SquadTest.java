@@ -3,6 +3,8 @@ package models;
 import org.junit.After;
 import org.junit.Test;
 
+import java.time.LocalDateTime;
+
 import static org.junit.Assert.*;
 
 public class SquadTest {
@@ -58,5 +60,8 @@ public class SquadTest {
         Squad otherSquad = new Squad("justice league", 7 , "fight crime");
         assertEquals(2, Squad.findById(otherSquad.getId()).getId());
     }
+
+
 }
+
 

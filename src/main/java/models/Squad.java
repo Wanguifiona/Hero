@@ -1,5 +1,6 @@
 package models;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 
 public class Squad {
@@ -9,12 +10,14 @@ public class Squad {
     private int id;
     private static ArrayList<Squad> instances = new ArrayList<>();
 
+
     public Squad(String name,Integer size, String cause ) {
         this.name = name;
         this.size = size;
         this.cause = cause;
         instances.add(this);
         this.id = instances.size();
+
     }
 
     public String getName() {
@@ -39,6 +42,8 @@ public class Squad {
     public static Squad findById(int id){
         return instances.get(id-1);
     }
-}
+
+    }
+
 
 

@@ -44,13 +44,10 @@
       gradlew.bat
       gradlew
       settings.gradle
-      Procfile
-      target
+
 
 
       # IntelliJ #
       ############
       .idea
       .idea/
-      gradle/wrapper
-      .gitignore

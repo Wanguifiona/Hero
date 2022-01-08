@@ -17,6 +17,7 @@ public class App {
         }
         return 4567; //return default port if heroku-port isn't set (i.e. on localhost)
     }
+
     public static void main(String[] args) { //type “psvm + tab” to autocreate this :)
         port(getHerokuAssignedPort());
         staticFileLocation("/public");
@@ -34,7 +35,7 @@ public class App {
             Integer age = Integer.parseInt(request.queryParams("age"));
             String powers = request.queryParams("powers");
             String weakness = request.queryParams("weakness");
-            Hero newHero = new Hero(name,age,powers,weakness);
+            Hero newHero = new Hero(name, age, powers, weakness);
             return new ModelAndView(model, "success.hbs");
         }, new HandlebarsTemplateEngine());
 
@@ -44,11 +45,11 @@ public class App {
             return new ModelAndView(model, "hero-form.hbs");
         }, new HandlebarsTemplateEngine());
 
-        get("/hero-detail",(req, res) ->{
+        get("/hero-detail", (req, res) -> {
             Map<String, Object> model = new HashMap<>();
             ArrayList<Hero> hero = Hero.getAll();
             System.out.println(hero);
-            model.put("hero",hero);
+            model.put("hero", hero);
             return new ModelAndView(model, "hero-detail.hbs");
         }, new HandlebarsTemplateEngine());
 
@@ -58,7 +59,7 @@ public class App {
             String name = request.queryParams("name");
             Integer size = Integer.parseInt(request.queryParams("size"));
             String cause = request.queryParams("cause");
-            Squad newSquad = new Squad(name, size,cause);
+            Squad newSquad = new Squad(name, size, cause);
             return new ModelAndView(model, "success.hbs");
         }, new HandlebarsTemplateEngine());
 
@@ -67,11 +68,11 @@ public class App {
             return new ModelAndView(model, "squad-form.hbs");
         }, new HandlebarsTemplateEngine());
 
-        get("/squad-detail",(req, res) ->{
+        get("/squad-detail", (req, res) -> {
             Map<String, Object> model = new HashMap<>();
             ArrayList<Squad> squad = Squad.getAll();
             System.out.println(squad);
-            model.put("squad",squad);
+            model.put("squad", squad);
             return new ModelAndView(model, "squad-detail.hbs");
         }, new HandlebarsTemplateEngine());
 
